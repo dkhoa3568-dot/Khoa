@@ -1,9 +1,76 @@
 body {
-    background-color: #f0f0f0;
-    text-align: center;
-    font-family: Arial;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f6fa;
 }
 
-h1 {
-    color: blue;
+/* CONTAINER */
+.container {
+    width: 900px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header p {
+    margin: 5px 0 0;
+    opacity: 0.8;
+}
+
+/* MAIN */
+.main {
+    display: flex;
+}
+
+/* LEFT */
+.left {
+    width: 35%;
+    background: #ecf0f1;
+    padding: 20px;
+}
+
+/* RIGHT */
+.right {
+    width: 65%;
+    padding: 20px;
+}
+
+/* BOX */
+.box {
+    margin-bottom: 20px;
+}
+
+.box h2 {
+    border-left: 5px solid #3498db;
+    padding-left: 10px;
+    color: #2c3e50;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
 }
